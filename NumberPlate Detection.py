@@ -9,7 +9,7 @@ import pytesseract
 #video.set(10,100) #for brightness=100
 npcascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
 minarea = 700
-text = 'OVI5 XBL'
+
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 #path = 'Images/AP CM Jagan car.jpg'
 #path = 'Images/Cars-Number-Plate.jpg'
